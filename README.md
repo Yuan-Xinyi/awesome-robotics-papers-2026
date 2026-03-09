@@ -53,6 +53,8 @@
 - [On the Continuity of Rotation Representations in Neural Networks](https://arxiv.org/pdf/1812.07035): Continuous rotation representations in 5D and 6D.
 
 **Action Smoothing**
+- [DiffOG: Differentiable Policy Trajectory Optimization With Generalizability](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11267071)
+  > **Quote:** The primary objective of DiffOG is to take an unoptimized action trajectory at as input and output an optimized trajectory that can accomplish the demonstrated task, ensuring constraint satisfaction and improving smoothness.
 - [Real-Time Action Chunking with Large Models](https://www.pi.website/research/real_time_chunking): Inference-time RTC.
 - [Training-Time Action Conditioning for Efficient Real-Time Chunking](https://arxiv.org/pdf/2512.05964): Training-time RTC.
 
