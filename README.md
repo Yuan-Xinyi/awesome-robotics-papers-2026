@@ -1,5 +1,3 @@
-# Embodied_AI_Paper_Reading
-
 ***Disclaimer***: *This page may contain subjective comments. For technical details and improved accuracy, please refer to the original papers via the provided links. For papers from arXiv, the date indicated refers to the month of the first upload*
 
 ## Surveys
