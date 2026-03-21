@@ -1,24 +1,33 @@
 ***Disclaimer***: *This page may contain subjective comments. For technical details and improved accuracy, please refer to the original papers via the provided links. For papers from arXiv, the date indicated refers to the month of the first upload*
 
+## External Resources
+- Akihiko Watanabe [X上のAIトレンド（？）（個人の感想です）](https://github.com/AkihikoWatanabe/paper_notes/wiki/X%E4%B8%8A%E3%81%AEAI%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89%EF%BC%88%EF%BC%9F%EF%BC%89%EF%BC%88%E5%80%8B%E4%BA%BA%E3%81%AE%E6%84%9F%E6%83%B3%E3%81%A7%E3%81%99%EF%BC%89) [わたしのべんきょうノート](https://akihikowatanabe.github.io/paper_notes/)
+- [Awesome-Robotics-Manipulation](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation)
+- [Awesome Robotics Libraries](https://github.com/jslee02/awesome-robotics-libraries)
+- [awesome-world-models-for-robots](https://github.com/operator22th/awesome-world-models-for-robots)
+- [Awesome Physical AI](https://github.com/keon/awesome-physical-ai)
+- [Awesome RL-VLA for Robotic Manipulation](https://github.com/Denghaoyuan123/Awesome-RL-VLA)
+
 ## Surveys
 - (2025.09 arXiv) [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827)
 - (2025.09 Science Robotics) [A review of learning-based dynamics models for robotic manipulation](https://pubmed.ncbi.nlm.nih.gov/40961212/)
 - (2024.08 arXiv) [Diffusion Model for Planning: A Systematic Literature Review](https://arxiv.org/abs/2408.10266)
 - (2023.11 arXiv) [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)
 
-
 ## New Trends
 
-### Future-Guided Learning-Based Method
+### Future-Guided Learning-Based Method & WAM
 - (2026.03 arXiv) [FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model](https://arxiv.org/pdf/2603.10712)
   > ... processes continuous multi-frame clips and structurally decouples the latent representation into a visual stream and a motor stream ...
 - (2026.03 arXiv) [Inference-Time Enhancement of Generative Robot Policies via Predictive World Modeling](https://ieeexplore.ieee.org/abstract/document/11433756)
   > ... train an action-conditioned world model on expert demonstrations and ... to forecast the consequences of action proposals produced by the diffusion policy
 
 ### Self-Improvement Policy
+- (2026.03 PI) [RL Token: Bootstrapping Online RL with  Vision-Language-Action Models](https://www.pi.website/research/rlt)
+  > We achieve this by training the VLA to expose an RL token, a compressed representation that makes task-relevant pretrained knowledge accessible to a lightweight online RL policy.
 - (2026.03 arXiv) [SPIRAL: A Closed-Loop Framework for Self-Improving Action World Models via Reflective Planning Agents](https://arxiv.org/abs/2603.08403)
   > ... a closed-loop think-act-reflect process, ... A PlanAgent decomposes abstract actions into object-centric sub-actions, while a CriticAgent evaluates intermediate results and guides iterative refinement with long-horizon memory. 
-- (2026.03 arXiv) [Update-Free On-Policy Steering via Verifiers](https://arxiv.org/pdf/2603.10282）
+- (2026.03 arXiv) [Update-Free On-Policy Steering via Verifiers](https://arxiv.org/pdf/2603.10282)
   > ... enables the robot to predict the success likelihood of its actions and adapt its strategy at execution time.
 - (2026.03 arXiv) [Beyond Imitation: Reinforcement Learning Fine-Tuning for Adaptive Diffusion Navigation Policies](https://arxiv.org/pdf/2603.12868)
   > ... adopts Group Relative Policy Optimization (GRPO), which estimates relative advantages across sampled trajectories ...
